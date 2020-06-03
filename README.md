@@ -66,6 +66,8 @@ Migrations: procure fazer uma migration por vez, pois mais de uma criada pode ac
 npm install cors @types/cors
 ```
 
+Atenção por algum motivo o --ignore-watch não estava funcionando no master porem no DEV estava, tirei o wacth e voltou tudo ao normal.
+
 Por Jose Ivan Ribeiro de Oliveira em workshop fornecido pela Rocketseat.
 
 "Se você se esforça é porque algo você quer muito."
