@@ -1,12 +1,14 @@
 # nlw1
 
-Repo destinado a semana Next Level Week antiga Omnistack
+Repo destinado para a semana Next Level Week da (Rocketseat)[https://rocketseat.com.br/], antiga Omnistack
 
 - npm init -y
 
 criar pakage diretamente sem perguntas
 
-- npm install express
+```bash
+npm install express
+```
 
 Micro frame para gerenciar rotas
 
