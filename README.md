@@ -1,37 +1,52 @@
 # nlw1
 
-Repo destinado para a semana Next Level Week da (Rocketseat)[https://rocketseat.com.br/], antiga Omnistack
+![Imgur](https://i.imgur.com/agf76lb.jpg)
 
+Repo destinado para a semana Next Level Week da [Rocketseat](https://rocketseat.com.br/), antiga Omnistack.
+
+Crie um repo no seu git com o nome do seu projeto e clone o mesmo em sua maquina. E siga os passos seguintes.
+
+```bash
 - npm init -y
+```
 
-criar pakage diretamente sem perguntas
+- Criar pakage diretamente sem perguntas
 
 ```bash
 npm install express
 ```
 
-Micro frame para gerenciar rotas
+- Micro frame para gerenciar rotas.
 
 -- Criar src e depois server.ts
 
-- npm install @types/express -D
+```bash
+npm install @types/express -D
+```
 
-Para o node ler TS temos que instalar:
+- Para o node ler TS temos que instalar:
 
-- npm install ts-node -D
-- npm install typescript -D
+```bash
+npm install typescript ts-node -D
+```
 
-Criar arquivo de configuração do Typescript
+- Criar arquivo de configuração do Typescript
 
-- npx tsc --init
+```bash
+npx tsc --init
+```
 
-Reiniciar servidor automaticamente
+- Reiniciar servidor automaticamente
 
-- npm install ts-node-dev -D
+```bash
+npm install ts-node-dev -D
+```
 
-Vamos utilizar o Query bulder Knex
+- Vamos utilizar o Query builder Knex
 
-- npm intall knex sqlite3
+```bash
+npm intall knex sqlite3
+```
 
 Lambrando que na pasta DATABASE temos que fazer a configuração da conexão com o banco de dados que estivemos utilizando.
 
@@ -39,11 +54,18 @@ E no diretorio raiz temos que ter um arquivo chamado knexfile.ts ou js. com as c
 
 Depois de ter feito isso e editado as migrations, temos utilizar o comando abaixo:
 
-- npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+```bash
+npx knex --knexfile knexfile.ts migrate:latest
+```
 
-## Migratiions: procure fazer uma migration por vez, pois mais de uma criada a mãe pode dar problemas.
+Migrations: procure fazer uma migration por vez, pois mais de uma criada pode acarretar problemas.
 
-- npm install cors
-- npm install @types/cors
+- Utilizar cors para fazer o controle de acesso das url da API
 
-  Utilizar cors para fazer o controle de acesso das url da API
+```bash
+npm install cors @types/cors
+```
+
+Por Jose Ivan Ribeiro de Oliveira em workshop fornecido pela Rocketseat.
+
+"Se você se esforça é porque algo você quer muito."
