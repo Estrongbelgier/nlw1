@@ -6,6 +6,11 @@ Repo destinado para a semana Next Level Week da [Rocketseat](https://rocketseat.
 
 Crie um repo no seu git com o nome do seu projeto e clone o mesmo em sua maquina. E siga os passos seguintes.
 
+## Estudar
+
+- Serealização
+- API Transform
+
 ```bash
 - npm init -y
 ```
@@ -46,6 +51,13 @@ npm install ts-node-dev -D
 
 ```bash
 npm intall knex sqlite3
+```
+
+- Multer para fazer o gerenciamento de uploads de imagens
+
+```bash
+npm install multer
+npm install @types/multer -D
 ```
 
 Lambrando que na pasta DATABASE temos que fazer a configuração da conexão com o banco de dados que estivemos utilizando.
