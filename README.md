@@ -84,6 +84,31 @@ npm install cors @types/cors
 npm install celebrate
 ```
 
+## Opções de Deploy
+
+### Backend
+[Heroku](https://www.heroku.com/#):
+- Boa opção para aplicações de estudos e testes de suas aplicações, não é recomendado a utilização em produção no plano gatuito.
+
+[Digital Ocean](https://www.digitalocean.com/):
+- Otima opção para projetos maiores e uma boa previsibilidade dos custos operacionais.
+
+[AWS](https://aws.amazon.com/pt/)
+[Gcloud](https://cloud.google.com/?hl=pt-br)
+[Azure](https://azure.microsoft.com/pt-br/)
+- Agora se tratando de projetos em produção e com uma alta demanda, recomenda-se a utilização desses grandes centro de Cloud Computing.
+
+### Front End
+
+[Netlify](https://www.netlify.com/)
+[Vercel](https://vercel.com/)
+
+- Para projetos de entrada.
+
+Recomendado:
+[AWS S3](https://aws.amazon.com/pt/s3/)
+[Gcloud](https://cloud.google.com/storage)
+
 Atenção por algum motivo o --ignore-watch não estava funcionando no master porem no DEV estava, tirei o wacth e voltou tudo ao normal.
 
 Por Jose Ivan Ribeiro de Oliveira em workshop fornecido pela Rocketseat.
