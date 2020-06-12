@@ -37,3 +37,5 @@ routes.post(
   PointsController.create
 );
 export default routes;
+
+// ROUTES Rotas
